@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF=8">
+  <meta charset="UTF-8">
   <title>kadai_011</title>
 
   <body>
@@ -13,8 +13,11 @@
 
       // 連想配列$product_dataのキーと値を1つずつ順番に出力する
         foreach ($product_data as $key => $value) {
-            echo "{$key}：{$value}<br>";
+            echo "{$key}:{$value}<br>";
         }
- 
-  
+      ?>
+    </p>  
+</head>  
+  </body>
+</html>
 
