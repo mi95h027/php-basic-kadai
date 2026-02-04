@@ -6,25 +6,22 @@ class Food {
      private $price;
 
      //コンストラクタを定義する
-     public function __construct(string $name, string $price) {
+     public function __construct(string $name, int $price) {
          $this->name = $name;
          $this->price = $price;
      }
      // メソッドを定義する
     public function show_price() {
-        return $this->price;
-       
+        echo $this->price;
     }
 }
      //インスタンス化する
-     $food = new Food('potate', 250);
+     $food = new Food('potato', 250);
 
 
      //値を出力する
      print_r($food);
-?>     
 
-<?php
 //クラスを定義する
 class Animal {
      //プロパティを定義する
@@ -33,14 +30,14 @@ class Animal {
      private $weight;
 
      //コンストラクタを定義する
-     public function __construct(string $name, int $height, string $weight) {
+     public function __construct(string $name, int $height, int $weight) {
         $this->name = $name;
         $this->height = $height;
         $this->weight = $weight;
      }
      // メソッドを定義する
      public function show_height() {
-        return $this->height;        
+         echo $this->height;
     }
 }    
         //インスタンス化する
@@ -48,9 +45,6 @@ class Animal {
 
       //値を出力する
       print_r($animal);
-      echo $food->show_price();
-      echo "<br>";
-      echo $animal->show_height();
 ?>
      
 
