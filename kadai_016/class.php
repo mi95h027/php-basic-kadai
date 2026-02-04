@@ -45,6 +45,8 @@ class Animal {
 
       //値を出力する
       print_r($animal);
+      $food->show_price();
+      $animal->show_height();
 ?>
      
 
